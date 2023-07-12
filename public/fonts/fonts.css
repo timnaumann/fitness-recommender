@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Josefin Sans'), url("josefin-sans/static/JosefinSans-Thin.ttf") format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Josefin Sans'), url("josefin-sans/static/JosefinSans-ExtraLight.ttf") format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Josefin Sans'), url("josefin-sans/static/JosefinSans-Light.ttf") format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Josefin Sans'), url("josefin-sans/static/JosefinSans-Regular.ttf") format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Josefin Sans'), url("josefin-sans/static/JosefinSans-Medium.ttf") format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Josefin Sans'), url("josefin-sans/static/JosefinSans-SemiBold.ttf") format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Josefin Sans'), url("josefin-sans/static/JosefinSans-Bold.ttf") format('truetype');
+    font-display: swap;
+}

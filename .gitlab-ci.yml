@@ -1,0 +1,13 @@
+include:
+  - project: 'recommender3/pipeline-templates'
+    ref: master
+    file: '/templates/react-client.yml'
+
+stages:
+  # include if you want to run a build (limited runner capacity)
+  - build
+  # included via .release-ci-template.yml
+  - prepare_release
+  - create_tag
+  - publish
+  - create_release

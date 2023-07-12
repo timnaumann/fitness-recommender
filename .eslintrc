@@ -1,0 +1,72 @@
+{
+  "extends": [
+    "react-app",
+    "airbnb",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "plugins": [
+    "jsx-a11y",
+    "import"
+  ],
+  "settings": {
+    "import/resolver": {
+      "alias": [
+        [
+          "@breakpoints",
+          "./src/themes"
+        ],
+        [
+          "@images",
+          "./src/fixtures/images"
+        ],
+        [
+          "@ui-components",
+          "./src/ui-components"
+        ],
+        [
+          "@container-components",
+          "./src/container-components"
+        ],
+        [
+          "@store",
+          "./src/store"
+        ],
+        [
+          "@api",
+          "./src/api"
+        ],
+        [
+          "@prop-types",
+          "./src/prop-types"
+        ],
+        [
+          "@api",
+          "./src/api"
+        ],
+        [
+          "@ga-tracking",
+          "./src/ga-tracking"
+        ],
+        [
+          "@globals",
+          "./src/globals"
+        ]
+      ]
+    }
+  },
+  "rules": {
+    "semi": 0,
+    "import/prefer-default-export": 0,
+    "react/jsx-props-no-spreading": 0,
+    "import/no-unresolved": 0,
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ]
+  }
+}

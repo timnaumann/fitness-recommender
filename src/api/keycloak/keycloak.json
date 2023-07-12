@@ -1,0 +1,11 @@
+{
+  "realm": "posture",
+  "auth-server-url": "https://lemur-1.cloud-iam.com/auth/",
+  "ssl-required": "external",
+  "resource": "posture-client",
+  "clientId": "posture-client",
+  "public-client": true,
+  "verify-token-audience": true,
+  "use-resource-role-mappings": true,
+  "confidential-port": 0
+}
